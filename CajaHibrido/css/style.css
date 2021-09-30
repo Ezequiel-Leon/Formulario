@@ -1,0 +1,112 @@
+body{
+    background-color: #C0BDBA;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Principal{
+    background-color: #24323D;
+    width: 35vw;
+    height: 70vh;
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+}
+.form-contenedor{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    display: grid;
+    align-items: center;
+    grid-gap: 5px;
+    text-align: center;
+    justify-content: center;
+}
+.sign-boton{
+    background-color: #1AB188;
+    color: white;
+    height: 7vh;
+    width: 15vw;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family:"Bauhaus 93";
+}
+.log-boton{
+    background-color: #425458;
+    color: #79878F;
+    height: 7vh;
+    width: 15vw;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family:"Bauhaus 93";
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.titulo{
+    color: #F8FEFB;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+}
+.datos-form{
+    display: grid;
+    grid-gap: 10px;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.ape,
+.nom{
+    background-color: #24323D;
+    border: 2px solid #425458;
+    border-radius: 4px;
+    color: #FFFFFF;
+    width: 13.5vw;
+    height: 5.2vh;
+}
+.datos1-form{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 6hv;
+}
+.email{
+    height: 5vh;
+    width: 28vw;
+    margin: 15px 2px 2px 10px ;
+    background-color: #24323D;
+    border: 2px solid #425458;
+    border-radius: 4px;
+}
+.passw{
+    height: 5vh;
+    width: 28vw;
+    margin: 15px 2px 2px 10px ;
+    background-color: #24323D;
+    border: 2px solid #425458;
+    border-radius: 4px;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+}
+.get{
+    height: 55PX;
+    background-color: #1AB188;
+    width: 396PX;
+    font-size: 25px;
+    color: white;
+    border-radius: 4px;
+    font-family:"Bauhaus 93";
+}
